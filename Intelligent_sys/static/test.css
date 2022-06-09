@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.father {
+  height: 400px;
+  background-color: pink;
+  position: relative;
+  padding-left: 200px;
+}
+.left {
+  height: 800px;
+  width: 200px;
+  background-color: orange;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.right {
+  height: 350px;
+  background-color: blue;
+}
+/*# sourceMappingURL=test.css.map */

@@ -1,0 +1,119 @@
+#content {
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+#content .video {
+  flex: 0 0 60%;
+  display: flex;
+  flex-direction: column;
+  background-color: #03a9f4;
+}
+#content .video .main {
+  flex: 0 0 70%;
+  height: 100%;
+  width: 100%;
+  background-color: yellow;
+  font-size: 50px;
+}
+#content .video .main img {
+  height: 100%;
+  width: 100%;
+}
+#content .video .part {
+  flex: 0 0 30%;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: row;
+  background-color: white;
+}
+#content .video .part .part1 {
+  flex: 1;
+  background-color: honeydew;
+}
+#content .video .part .part1 img {
+  height: 100%;
+  width: 100%;
+}
+#content .video .part .part2 {
+  flex: 1;
+  background-color: wheat;
+}
+#content .video .part .part2 img {
+  height: 100%;
+  width: 100%;
+}
+#content .video .part .part3 {
+  flex: 1;
+}
+#content .video .part .part3 img {
+  height: 100%;
+  width: 100%;
+}
+#content .info {
+  flex: 0 0 40%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#content .info .words_weather {
+  flex: 0 0 20%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-width: 1px;
+  border-style: solid;
+}
+#content .info .words_weather .words {
+  flex: 0 0 80%;
+  height: 100%;
+  width: 100%;
+}
+#content .info .words_weather .words .overflow-hidden {
+  font-size: 13px;
+}
+#content .info .words_weather .words img {
+  max-width: 100%;
+  max-height: 100%;
+  vertical-align: middle;
+}
+#content .info .words_weather .weather {
+  flex: 0 0 20%;
+  font-size: large;
+  line-height: 25px;
+}
+#content .info .waterQ {
+  flex: 0 0 45%;
+  max-width: 100%;
+  max-height: 100%;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#content .info .waterQ .drawBox {
+  width: 227px;
+  height: 215px;
+}
+#content .info .equipment {
+  flex: 0 0 30%;
+  border-style: solid;
+  border-width: 1px;
+}
+#content .info .equipment table {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  align-content: center;
+}
+#content .info .equipment table .highlight {
+  font-weight: normal;
+  font-size: larger;
+  color: #242f42;
+}
+/*# sourceMappingURL=overview.css.map */

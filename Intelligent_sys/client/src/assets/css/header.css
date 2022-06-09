@@ -1,0 +1,39 @@
+.header {
+  box-sizing: border-box;
+  color: white;
+  width: 100%;
+  height: 70px;
+  font-size: 25px;
+  line-height: 70px;
+  background-color: #242f42;
+}
+.header .collapse-btn {
+  float: left;
+  padding: 0 21px;
+  cursor: pointer;
+}
+.header .brand {
+  float: left;
+  font-size: 30px;
+  width: 250px;
+  line-height: 60px;
+}
+.header .right {
+  float: right;
+  padding-right: 50px;
+}
+.header .right .icon {
+  width: 30px;
+  height: 30px;
+}
+.header .right .dropdown {
+  display: inline-block;
+  line-height: 52px;
+  font-size: 25px;
+  color: white;
+}
+.header .right em {
+  color: white;
+  font-style: normal;
+}
+/*# sourceMappingURL=header.css.map */

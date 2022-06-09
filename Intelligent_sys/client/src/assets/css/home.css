@@ -1,0 +1,18 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#home {
+  width: 100%;
+  height: 100%;
+}
+.main_box {
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=home.css.map */
