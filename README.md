@@ -1,2 +1,2 @@
 # Flask-Vue-Echarts-Mysql
-Aquaculture management system, data display better in main, with maps in Branch 
+Aquaculture management system, data display better in master, with maps in main 
